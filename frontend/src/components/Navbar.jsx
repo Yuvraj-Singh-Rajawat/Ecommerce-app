@@ -47,12 +47,13 @@ const Navbar = () => {
       </ul>
 
       <div className="flex items-center gap-6">
-        <NavLink
-          to="/admin"
+        <a
+          href="https://ecommerce-app-admin-panel.onrender.com"
+          target="_blank"
           className="border-2 border-gray-400 p-3 rounded-full"
         >
           <h2 className="text-slate-500 font-bold">ADMIN PANEL</h2>
-        </NavLink>
+        </a>
         <img
           onClick={() => setShowSearch(true)}
           src={assets.search_icon}
